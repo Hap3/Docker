@@ -1,0 +1,7 @@
+#!/bin/bash
+docker run -ti --rm debian
+
+apt-get upgrade
+apt-get update
+apt-get install gcc
+apt-get install git-core

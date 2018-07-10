@@ -1,0 +1,3 @@
+ln -s ../../../sgoinfre/goinfre/Perso/cpaquet/com.docker.docker com.docker.docker
+
+ln -s ../../sgoinfre/goinfre/Perso/cpaquet/.docker .docker
