@@ -1,0 +1,14 @@
+02
+Le commande "docker-machine env Char" conseille de :
+# Run this command to configure your shell:
+# eval $(docker-machine env Char)
+
+07
+https://docs.docker.com/engine/reference/commandline/inspect/
+
+08
+docker run -ti --rm alpine
+-ti lie le terminal a l entree et aux sorties standards du container
+--rm le container est detruit quand on en sort
+
+

@@ -1,0 +1,5 @@
+apt-get update
+apt full-upgrade
+apt-get install gcc
+apt-get install git
+apt list --installed

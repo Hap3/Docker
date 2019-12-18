@@ -1,8 +1,10 @@
 #!/bin/bash
+rm -rf ~/sgoinfre/docker
+
 rm -rf ~/Library/Containers/com.docker.docker
+mkdir -p /Users/cpaquet/goinfre/docker/com.docker.docker
+ln -s /Users/cpaquet/goinfre/docker/com.docker.docker ~/Library/Containers/com.docker.docker
+
 rm -rf ~/.docker
-rm -rf ~/goinfre/docker
-mkdir -p ~/goinfre/docker/.docker
-mkdir -p ~/goinfre/docker/com.docker.docker
-ln -s ~/goinfre/docker/com.docker.docker ~/Library/Containers/com.docker.docker
-ln -s ~/goinfre/docker/.docker ~/.docker
+mkdir -p /Users/cpaquet/goinfre/docker/.docker
+ln -s /Users/cpaquet/goinfre/docker/.docker ~/.docker
