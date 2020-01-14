@@ -1,0 +1,2 @@
+#!/bin/bash
+docker swarm join `docker-machine ip "Aiur"`
